@@ -5,3 +5,134 @@ title: "simple_quarto_website"
 This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+<html>
+<body>
+    <table>
+    <tr>
+        <th>Table of Contents</th>
+        
+    </tr>
+    <tr>
+        <td> A Heading here </td>
+        
+    </tr>
+    <tr>
+        <td>Posted by Dani Buitrago </td>
+
+    </tr>
+    <tr>
+        <td>Some additional information here</td>
+
+    </tr>
+    <tr>
+        <td>Creating Columns</td>
+
+    </tr>
+    <tr>
+        <td>Here is a quote</td>
+
+    </tr>
+    <tr>
+        <td>Images</td>
+        
+    </tr>
+    </table>
+
+  <header>
+    
+    <h1>A heading here</h1>
+    <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <h2>Posted by Dani Buitrago</h2>
+    <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <h3>Some additional information here</h3>
+    <p>
+    <ul>
+  <li>Faucibus interdum posuere lorem ipsum dolor sit amet.</li>
+  <li>Ut enim ad minim veniam, quis nostrud exercitation .</li>
+  <li>ULorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</li>
+  </ul>
+    </p>
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+    
+<p>
+an inline math equation $a + b = c$ would look like this
+</p>
+
+<p>
+a non inline math equation would look like this:
+
+$$ a+ b = c $$
+</p>
+
+  </header>
+
+</body>
+
+<head>
+<style>
+.newspaper {
+  column-count: 2;
+}
+</style>
+</head>
+<body>
+
+<h1>Creating Columns</h1>
+
+<div class="newspaper">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nullam vehicula ipsum a arcu cursus vitae congue mauris. Mauris in aliquam sem fringilla ut. Risus quis varius quam quisque id diam vel quam elementum. Eget magna fermentum iaculis eu non diam phasellus. Lectus quam id leo in vitae turpis massa sed elementum. Vitae aliquet nec ullamcorper sit amet risus. Volutpat commodo sed egestas egestas fringilla phasellus. Sit amet luctus venenatis lectus magna. Arcu risus quis varius quam quisque id diam vel. Mauris pellentesque pulvinar pellentesque habitant. Duis ut diam quam nulla porttitor massa id. Vitae congue mauris rhoncus aenean vel elit scelerisque mauris. Faucibus interdum posuere lorem ipsum dolor sit amet.[@dhar2013data]
+</div>
+
+
+<h1>Here is a quote</h1>
+
+<blockquote cite="https://loremipsum.io/">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</blockquote>
+
+<h2>Images</h2>
+<img src="images/ducks.png" alt="ducks" width="500" height="400">
+<p></p>
+<img src="images/wave.png" alt="wave" width="500" height="400">
+
+<video width="500px" height="500px" controls="controls">
+        <source src="images/ocean.mp4" type="video/mp4" />
+       </video>
+
+
+<p>This is a piece of info that requires a footnote<a href="#footnote-1">[1]</a>. Then there is more info that requires a footnote <a href="#footnote-2">[2]</a>.</p>
+
+<p id="footnote-1">[1] Here is my first footnote.</p>
+<p id="footnote-2">[2] Another footnote.</p>
+
+</body>
+
+</html>
+
+
+<html lang="en">
+  <body>
+    <pre class="mermaid">
+  graph LR
+      A --- B
+      B-->C[fa:fa-ban forbidden]
+      B-->D(fa:fa-spinner);
+    </pre>
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    </script>
+  </body>
+</html>
+
+
+
+

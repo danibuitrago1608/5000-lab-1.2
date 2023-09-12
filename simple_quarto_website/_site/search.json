@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "slides/slide.html#getting-up",
+    "href": "slides/slide.html#getting-up",
+    "title": "simple_quarto_website",
+    "section": "Getting up",
+    "text": "Getting up\n\nTurn off alarm\nGet out of bed"
+  },
+  {
+    "objectID": "slides/slide.html#breakfast",
+    "href": "slides/slide.html#breakfast",
+    "title": "simple_quarto_website",
+    "section": "Breakfast",
+    "text": "Breakfast\n\nEat eggs\nDrink coffee"
+  },
+  {
+    "objectID": "slides/slide.html#dinner",
+    "href": "slides/slide.html#dinner",
+    "title": "simple_quarto_website",
+    "section": "Dinner",
+    "text": "Dinner\n\nEat spaghetti\nDrink wine"
+  },
+  {
+    "objectID": "slides/slide.html#going-to-sleep",
+    "href": "slides/slide.html#going-to-sleep",
+    "title": "simple_quarto_website",
+    "section": "Going to sleep",
+    "text": "Going to sleep\n\nGet in bed\nCount ducks (Van Der Aalst and Aalst 2016)"
+  },
+  {
+    "objectID": "slides/slide.html#graphs",
+    "href": "slides/slide.html#graphs",
+    "title": "simple_quarto_website",
+    "section": "Graphs",
+    "text": "Graphs\n\n\n\n\n\n\n\nVan Der Aalst, Wil, and Wil van der Aalst. 2016. Data Science in Action. Springer."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Heading level 1",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "objectID": "about.html#heading-level-2",
+    "href": "about.html#heading-level-2",
+    "title": "Heading level 1",
+    "section": "Heading level 2",
+    "text": "Heading level 2\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nHeading level 3\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\nCode\nimport seaborn as sns\nimport matplotlib.pyplot as plt\ndf = sns.load_dataset(\"penguins\")\nmy_plot_1=sns.relplot(\ndata=df, \nx='bill_length_mm', \ny='flipper_length_mm',\nhue='species',\ncol= 'island',\ns= 200\n)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n\n\n\n\n\nTable of Contents\n\n\n\n\nA Heading here\n\n\n\n\nPosted by Dani Buitrago\n\n\n\n\nSome additional information here\n\n\n\n\nCreating Columns\n\n\n\n\nHere is a quote\n\n\n\n\nImages\n\n\n\n\n\n\nA heading here\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\nPosted by Dani Buitrago\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\nSome additional information here\n\n\n\n\nFaucibus interdum posuere lorem ipsum dolor sit amet.\n\n\nUt enim ad minim veniam, quis nostrud exercitation .\n\n\nULorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.\n\n\n\n\n\n\nSyntax\nDescription\n\n\n\n\nHeader\nTitle\n\n\nParagraph\nText\n\n\n\n\nan inline math equation \\(a + b = c\\) would look like this\n\n\na non inline math equation would look like this:\n\\[ a+ b = c \\]\n\n\n\n\n\n\n\n\nCreating Columns\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nullam vehicula ipsum a arcu cursus vitae congue mauris. Mauris in aliquam sem fringilla ut. Risus quis varius quam quisque id diam vel quam elementum. Eget magna fermentum iaculis eu non diam phasellus. Lectus quam id leo in vitae turpis massa sed elementum. Vitae aliquet nec ullamcorper sit amet risus. Volutpat commodo sed egestas egestas fringilla phasellus. Sit amet luctus venenatis lectus magna. Arcu risus quis varius quam quisque id diam vel. Mauris pellentesque pulvinar pellentesque habitant. Duis ut diam quam nulla porttitor massa id. Vitae congue mauris rhoncus aenean vel elit scelerisque mauris. Faucibus interdum posuere lorem ipsum dolor sit amet.(Dhar 2013)\n\n\nHere is a quote\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\nImages\n\n\n\n\n\n\n\n\n\nThis is a piece of info that requires a footnote[1]. Then there is more info that requires a footnote [2].\n\n\n[1] Here is my first footnote.\n\n\n[2] Another footnote.\n\n\n\n\n\n  graph LR\n      A --- B\n      B--&gt;C[fa:fa-ban forbidden]\n      B--&gt;D(fa:fa-spinner);\n    \n\n\n\n\n\n\n\nReferences\n\nDhar, Vasant. 2013. “Data Science and Prediction.” Communications of the ACM 56 (12): 64–73."
+  }
+]
